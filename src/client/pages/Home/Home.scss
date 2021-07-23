@@ -1,0 +1,59 @@
+@import '../../styles/variable.scss';
+
+.home-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  .title {
+    background-image: url('../../../images/Pattern.svg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .title-wrapper {
+    width: 50%;
+    margin: auto;
+  }
+  .title-text {
+    color: $blue;
+    font-weight: 700;
+    font-size: 4.8rem;
+    letter-spacing: 0.1rem;
+  }
+  .title-subtext {
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+  }
+  .categories {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .category-inner-wrapper {
+    background-color: #f8f7ff;
+  }
+}
+@media (max-width: 425px) {
+  .home-wrapper {
+    justify-content: flex-start;
+    .title-wrapper {
+      width: 80%;
+    }
+    .title-text {
+      font-size: 3.8rem;
+    }
+    .title-subtext {
+      font-size: 1.5rem;
+    }
+    .categories {
+      width: 80%;
+    }
+  }
+}

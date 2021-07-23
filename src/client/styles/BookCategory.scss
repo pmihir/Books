@@ -1,0 +1,47 @@
+.title-heading {
+  color: #5e56e7;
+}
+.category-wrapper {
+  background-image: url('../assets/svg/Pattern.svg');
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.main-wrapper {
+  background-color: #f8f7ff;
+}
+.book-categories {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 3rem;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+  padding: 5rem 0 15rem 0;
+}
+.genere-card {
+  font-size: 2rem;
+  padding: 1rem 2rem 1rem 1rem;
+  border-radius: 0.4rem;
+  box-shadow: 0 2px 5px 0 rgba(211, 209, 238, 0.5);
+  width: 30rem;
+  display: flex;
+  background-color: white;
+}
+.category-image-title {
+  flex-grow: 1;
+}
+.category-svg-icon {
+  width: 3rem;
+  height: 2rem;
+}
+.category-title {
+  letter-spacing: 0.1rem;
+  padding-left: 1rem;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}

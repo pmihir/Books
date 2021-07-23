@@ -1,0 +1,45 @@
+@import './variable.scss'; 
+
+html {
+  font-size: 10px;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.fs-m {
+  font-weight: 400;
+}
+.fs-sm-b {
+  font-weight: 600;
+  color: black;
+  font-size: 1.3rem;
+}
+.fs-b {
+  font-weight: 600;
+}
+.book-name {
+  font-size: 0.75rem;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 1.875rem;
+}
+.book-card {
+  width: 11.4rem;
+  height: 16.2rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 0.2rem 0.5rem 0 rgba(211, 209, 238, 0.5);
+}
+.text-box {
+  border-radius: 0.4rem;
+  padding: 0 1rem;
+  height: 4rem;
+}
