@@ -4,6 +4,7 @@ import "./Book.scss";
 function Book({ book }) {
 
     const openBookHandler = () => {
+        // eslint-disable-next-line array-callback-return
         Object.entries(book.formats).sort().some(([key, value]) => {
             const temp = value.split('.');
             if (temp[temp.length - 1] === 'htm') {
